@@ -17,3 +17,15 @@ md files for each website page are here  I did `hugo new _index.md` and it autom
 3. index, single, list.html  
    ![Alt text](image-2.png)  
    ![Alt text](image-3.png)
+
+## Resources
+
+![Alt text](image-4.png)
+
+## static
+
+![Alt text](image-5.png)
+
+## Themes 
+
+![Alt text](image-6.png)

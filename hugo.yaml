@@ -1,0 +1,13 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Hooman'
+
+# so that hugo doesn't neglect raw html in md files
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+
