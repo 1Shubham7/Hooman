@@ -1,0 +1,13 @@
+{{ define "main"}}
+
+
+<div class="page">
+<!-- This will output title from config.toml -->
+<h1> {{ .Site.Title }} </h1>
+
+<!-- this is subtitle from content/_index.md -->
+{{ .Params.subtitle }}  
+{{ .Content }}
+
+</div>
+{{ end }}
