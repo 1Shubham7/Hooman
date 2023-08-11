@@ -1,6 +1,19 @@
-<div class="about">
-    <div class="about-text">
-        
+<link rel="stylesheet" href="{{ "css/about.css" | absURL }}">
+
+
+<div class="about flex justify-center align-middle">
+    <div class="about-text w-1/2">
+        <h1>About Us</h1>
+        {{ with .Site.GetPage "aboutUs.md" }}
+      <div class="content-about">
+        {{ .Content }}
+      </div>
+      {{ end }}
+
+<button class="button">Get Started</button>
+      
     </div>
-    <div class="img"></div>
+    <div class=" w-1/2">
+        <img class="img-rectangle" src="{{ "/img/rectangle.jpg" | absURL }}" alt="Logo">
+    </div>
 </div>
