@@ -17,3 +17,9 @@ This is where you define the skeleton of your website. It generally doesn't chan
 2. Partials
 
 ![Alt text](image-1.png)
+
+3. index, single, list.html
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
