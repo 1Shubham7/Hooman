@@ -13,3 +13,7 @@ I did `hugo new _index.md` and it automatically generated the index .md file in 
 This is where you define the skeleton of your website. It generally doesn't change throughout website
 
 ![Alt text](image.png)
+
+2. Partials
+
+![Alt text](image-1.png)
