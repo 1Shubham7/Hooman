@@ -6,7 +6,14 @@
 <h1> {{ .Site.Title }} </h1>
 
 <!-- this is subtitle from content/_index.md -->
+
+{{ if .Params.subtitle}}
+
 {{ .Params.subtitle }}  
+
+{{ end }}
+
+
 {{ .Content }}
 
 </div>
