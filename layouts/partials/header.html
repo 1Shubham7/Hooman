@@ -11,11 +11,11 @@
   <div class="top-segment flex">
     <div class="left-top-segment w-2/3">
       <div class="grow-text">Grow Your Business and Unique Design with <div class="text-blue">Hooman Digital</div></div>
-      <p class="text-white para">
-        We strongly believe in user-centric service, we have successfully built
-        a significant space in the market. And our mootoo is to fulfill customer
-        desmand by making them satisfied with growing their business
-      </p>
+              {{ with .Site.GetPage "we.md" }}
+      <div class="text-white para">
+        {{ .Content }}
+      </div>
+      {{ end }}
       
   <button class="get-started text-white font-bold py-2 px-4">
     Get Started
@@ -36,11 +36,12 @@
   </div>
 
   <div class="cards flex">
-    <div class="cards-left">
+    <div class="cards-left w-1/2">
         <img src="{{ "/img/subtract.jpg" | absURL }}" alt="Logo">
     </div>
-    <div class="cards-right  text-white">
-        <div class="card1 flex">
+    <div class="cards-right w-1/2 text-white">
+        <div class="cards-right-area">
+        <div class="card1">
             <div class="img">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -67,7 +68,7 @@
                 Offering the services that 
                 catches attention of the eye and creates great impact on the mind. </p>
         </div>
-        <div class="card2 flex">
+        <div class="card2">
             <div class="img">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                     <path d="M14 7.18225C15.7902 7.18225 17.5071 7.89341 18.773 9.15928C20.0388 10.4252 20.75 12.142 20.75 13.9323C20.75 16.4298 19.3888 18.6123 17.375 19.7823V21.8073C17.375 22.1056 17.2565 22.3918 17.0455 22.6027C16.8345 22.8137 16.5484 22.9323 16.25 22.9323H11.75C11.4516 22.9323 11.1655 22.8137 10.9545 22.6027C10.7435 22.3918 10.625 22.1056 10.625 21.8073V19.7823C8.61125 18.6123 7.25 16.4298 7.25 13.9323C7.25 12.142 7.96116 10.4252 9.22703 9.15928C10.4929 7.89341 12.2098 7.18225 14 7.18225ZM16.25 24.0573V25.1823C16.25 25.4806 16.1315 25.7668 15.9205 25.9777C15.7095 26.1887 15.4234 26.3073 15.125 26.3073H12.875C12.5766 26.3073 12.2905 26.1887 12.0795 25.9777C11.8685 25.7668 11.75 25.4806 11.75 25.1823V24.0573H16.25ZM23 12.8073H26.375V15.0573H23V12.8073ZM1.625 12.8073H5V15.0573H1.625V12.8073ZM15.125 1.55725V4.93225H12.875V1.55725H15.125ZM6.035 4.36975L8.43125 6.77725L6.83375 8.3635L4.4375 5.9785L6.035 4.36975ZM19.5688 6.766L21.9538 4.36975L23.5625 5.9785L21.1663 8.3635L19.5688 6.766Z" fill="#3A86FF"/>
@@ -77,6 +78,7 @@
             Solutions</h2>
             <p>The reason why our clients appreciate our work is the solutions we help them with. It’s all about being logical yet creative</p>
         </div>
+    </div>
         
     </div>
 

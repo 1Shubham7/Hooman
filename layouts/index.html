@@ -8,6 +8,7 @@
 <!-- This will output title from config.toml -->
 <!-- <h1> {{ .Site.Title }} </h1> -->
 {{- partial "header.html" . -}}
+{{- partial "aboutUs.html" . -}}
 
 <!-- this is subtitle from content/_index.md -->
 
@@ -16,9 +17,6 @@
 {{ .Params.subtitle }}  
 
 {{ end }}
-
-
-{{ .Content }}
 
 <h1 class="text-3xl text-blue-700 font-bold underline">thisSiteIsNew</h1>
 <p class="bg-sky-600 text-slate-100">The thisSiteIsNew uses a theme called thisThemeIsNew</p>

@@ -78,13 +78,13 @@ line-height: normal;
 
   .para{
     color: rgba(255, 255, 255, 0.70);
-font-family: Inter;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 152%; /* 1.52rem */
-padding-top: 2rem;
-padding-bottom: 2rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152%; /* 1.52rem */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .top-segment{
@@ -101,4 +101,9 @@ padding-bottom: 2rem;
 
   .cards{
     margin-top: 2rem;
+  }
+
+  .cards-right-area{
+    display: flex;
+
   }
