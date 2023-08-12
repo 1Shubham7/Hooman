@@ -18,11 +18,10 @@
 
   .grow-text{
     color: #fff;
-font-family: Space Grotesk;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Space Grotesk;
+    font-size: 3.125rem;;
+    font-weight: 700;
+    line-height: normal;
   }
 
   .text-blue{
@@ -48,7 +47,7 @@ margin-bottom: 1rem;
     margin-left: 136px;
     margin-right: 1.37rem;
     margin-bottom: 1.25;
-    border-radius: 62.5rem;
+    /* border-radius: 62.5rem; */
   }
 
   .right-top-segment {
@@ -101,9 +100,42 @@ line-height: normal;
 
   .cards{
     margin-top: 2rem;
+    padding-bottom: 4rem;
   }
 
   .cards-right-area{
     display: flex;
+    margin-right: 7.91rem;
+    gap: 1.88rem;
+  }
 
+  .div-heading{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .card1{
+    border: 1px solid white;
+  }
+
+  .card2{
+    border: 1px solid white;
+  }
+
+  .card1-content{
+    padding-left: 1.56rem;
+    padding-top: 2.22rem;
+    padding-bottom: 2rem;
+    padding-right: 2.2rem;
+  }
+
+  .card2-content{
+    padding-left: 1.56rem;
+    padding-top: 2.22rem;
+    padding-bottom: 2rem;
+    padding-right: 2.2rem;
   }
