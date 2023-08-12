@@ -1,20 +1,25 @@
 {{ define "main"}}
 
-
 <div class="page">
+
+    
 <!-- This will output title from config.toml -->
-<h1> {{ .Site.Title }} </h1>
+<!-- <h1> {{ .Site.Title }} </h1> -->
+{{- partial "header.html" . -}}
+{{- partial "aboutUs.html" . -}}
+{{- partial "quote.html" . -}}
+{{- partial "portfolio.html" . -}}
+
+
+
 
 <!-- this is subtitle from content/_index.md -->
 
-{{ if .Params.subtitle}}
+<!-- {{ if .Params.subtitle}}
 
 {{ .Params.subtitle }}  
 
-{{ end }}
-
-
-{{ .Content }}
+{{ end }} -->
 
 </div>
 {{ end }}

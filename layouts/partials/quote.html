@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="{{ "css/quote.css" | absURL }}">
+
+<div class="segment">
+
+    <div class="blue-rectangle ">
+
+        <div class="text-segment flex">
+
+        <div class="left-segment w-2/3">
+
+            <div class="heading-quote ">Let’s make things happen</div>
+
+            {{ with .Site.GetPage "portfolio.md" }}
+            <div class="quote-text">
+            {{ .Content }}
+            </div>
+            {{ end }}
+    
+            <button class="get-quote text-white font-bold py-2 px-4">
+                Get Quote
+              </button>
+
+        </div>
+
+
+        <div class="right-segment w-1/3">
+            <img class="img-rectangle" src="{{ "/img/illustration.png" | absURL }}" alt="Logo">
+        </div>
+
+    </div>
+</div>
+
+
+
+</div>    

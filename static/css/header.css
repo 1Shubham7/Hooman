@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.header {
+    background-color: #17181c;
+  }
+  .get-started{
+      color: #FFF;
+      font-family: Space Grotesk;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 180px;
+    height: 50px;
+    background: #3A86FF;
+  }
+
+  .grow-text{
+    color: #fff;
+    font-family: Space Grotesk;
+    font-size: 3.125rem;;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .text-blue{
+    color: #3A86FF;
+  }
+
+  .home{
+    width: 387px;
+height: 60px;
+background: #3A86FF;
+color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1rem;
+/* margin-right: 146px; */
+
+  }
+
+  .left-top-segment {
+    margin-left: 136px;
+    margin-right: 1.37rem;
+    margin-bottom: 1.25;
+    /* border-radius: 62.5rem; */
+  }
+
+  .right-top-segment {
+    margin-right: 136px;
+  }
+
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+
+
+  .nav-links{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .para{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152%; /* 1.52rem */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .top-segment{
+    padding-top: 3rem;
+  }
+
+  .cards-left{
+    margin-left: 136px;
+  }
+
+  .cards-right{
+    margin-right: 136px;
+  }
+
+  .cards{
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .cards-right-area{
+    display: flex;
+    margin-right: 7.91rem;
+    gap: 1.88rem;
+  }
+
+  .div-heading{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .card1{
+    border: 1px solid white;
+  }
+
+  .card2{
+    border: 1px solid white;
+  }
+
+  .card1-content{
+    padding-left: 1.56rem;
+    padding-top: 2.22rem;
+    padding-bottom: 2rem;
+    padding-right: 2.2rem;
+  }
+
+  .card2-content{
+    padding-left: 1.56rem;
+    padding-top: 2.22rem;
+    padding-bottom: 2rem;
+    padding-right: 2.2rem;
+  }
