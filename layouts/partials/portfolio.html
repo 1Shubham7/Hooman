@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{ "css/portfolio.css" | absURL }}">
+
+
+<div class="about flex justify-center align-middle">
+    <div class="about-text w-1/2">
+        <h1>Portfolio</h1>
+        {{ with .Site.GetPage "portfolio.md" }}
+      <div class="content-about">
+        {{ .Content }}
+      </div>
+      {{ end }}
+      
+    </div>
+    <div class=" w-1/2">
+        <img class="img-rectangle" src="{{ "/img/rectangle.jpg" | absURL }}" alt="Logo">
+    </div>
+</div>
