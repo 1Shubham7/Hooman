@@ -4,6 +4,8 @@
 <div class="about flex justify-center align-middle">
     <div class="about-text w-1/2">
         <h1>About Us</h1>
+
+        <!-- fetching contect from aboutUs.md -->
         {{ with .Site.GetPage "aboutUs.md" }}
       <div class="content-about">
         {{ .Content }}
@@ -14,6 +16,7 @@
       
     </div>
     <div class=" w-1/2">
+      <!-- adding an image from static/img -->
         <img class="img-rectangle" src="{{ "/img/rectangle.jpg" | absURL }}" alt="Logo">
     </div>
 </div>
