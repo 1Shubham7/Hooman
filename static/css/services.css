@@ -70,3 +70,12 @@ font-style: normal;
 font-weight: 700;
 line-height: 140%; /* 1.925rem */
 }
+
+.card-border{
+    border: 2px solid #fff;
+}
+
+.card-section{
+    margin-left: 8.55rem;
+    margin-right: 8.55rem;
+}
