@@ -1,0 +1,50 @@
+.about{
+    background: #17181C;
+    padding-bottom: 4.37rem;
+    padding-top: 4.6rem;
+    gap: 6.31rem;
+}
+
+
+.content-about{
+    color: rgba(255, 255, 255, 0.85);
+text-align: justify;
+font-family: Space Grotesk;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+padding-bottom: 1.5rem;
+padding-top: 1rem;
+}
+
+.button{
+    width: 9.375rem;
+height: 3.125rem;
+background: #3A86FF;
+color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.img-rectangle{
+    margin-right: 40.38rem;
+}
+
+.about-text{
+    margin-left: 8.5rem;
+
+}
+
+h1{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
