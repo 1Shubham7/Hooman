@@ -3,6 +3,7 @@
     margin:0;
     box-sizing:border-box;
     background: #1D1F25;
+    padding-bottom: 5rem;
 }
 
 .header-services{
@@ -16,51 +17,6 @@ line-height: 2.75rem;
 text-transform: capitalize;
 }
 
-#cards{
-    height:320px;
-    width:400px;
-    border:1px solid white;
-    padding:20px;
-    padding-left:30px;
-    padding-right:30px;
-}
-#cards #card1 #upper{
-    display:flex;
-    align-items:center;
-    margin-bottom:20px;
-    
-}
-#upper div{
-    margin-right:20px;
-    width:30px;
-    height:30px;
-    background-color:white;
-    border-radius:50%;
-}
-#middle{
-    margin-bottom:20px;
-
-}
-#middle p{
-    text-align: start;
-}
-#bottom{
-    text-align: left;
-
-}
-#cardSec{
-    display:flex;
-    align-items: center;
-    gap:40px;
-    width:70%;
-    height:100%;
-
-}
-#card-up{
-    display:flex;
-    justify-content:center;
-    /* margin-top:30px */
-}
 
 .card-title{
     color: #FFF;
@@ -78,4 +34,14 @@ line-height: 140%; /* 1.925rem */
 .card-section{
     margin-left: 8.55rem;
     margin-right: 8.55rem;
+}
+
+.top-text{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
+}
+
+.top-text h1{
+    padding-bottom: 1rem;
 }
