@@ -1,0 +1,47 @@
+.services{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background: #1D1F25;
+    padding-bottom: 5rem;
+}
+
+.header-services{
+
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.75rem; 
+text-transform: capitalize;
+}
+
+
+.card-title{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 1.925rem */
+}
+
+.card-border{
+    border: 2px solid #fff;
+}
+
+.card-section{
+    margin-left: 8.55rem;
+    margin-right: 8.55rem;
+}
+
+.top-text{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
+}
+
+.top-text h1{
+    padding-bottom: 1rem;
+}

@@ -10,7 +10,9 @@
 
             <div class="heading-quote ">Let’s make things happen</div>
 
-            {{ with .Site.GetPage "portfolio.md" }}
+            <!-- adding content from quote.md -->
+
+            {{ with .Site.GetPage "quote.md" }}
             <div class="quote-text">
             {{ .Content }}
             </div>
