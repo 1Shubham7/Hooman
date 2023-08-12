@@ -1,4 +1,4 @@
-baseURL: 'https://1shubham7.github.io/hooman/'
+baseURL: '/'
 languageCode: 'en-us'
 title: 'Hooman'
 
@@ -10,4 +10,3 @@ markup:
       unsafe: true
 
 params:
-

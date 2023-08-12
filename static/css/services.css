@@ -1,0 +1,72 @@
+.services{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background: #1D1F25;
+}
+
+.header-services{
+
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.75rem; 
+text-transform: capitalize;
+}
+
+#cards{
+    height:320px;
+    width:400px;
+    border:1px solid white;
+    padding:20px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#cards #card1 #upper{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    
+}
+#upper div{
+    margin-right:20px;
+    width:30px;
+    height:30px;
+    background-color:white;
+    border-radius:50%;
+}
+#middle{
+    margin-bottom:20px;
+
+}
+#middle p{
+    text-align: start;
+}
+#bottom{
+    text-align: left;
+
+}
+#cardSec{
+    display:flex;
+    align-items: center;
+    gap:40px;
+    width:70%;
+    height:100%;
+
+}
+#card-up{
+    display:flex;
+    justify-content:center;
+    /* margin-top:30px */
+}
+
+.card-title{
+    color: #FFF;
+font-family: Space Grotesk;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 1.925rem */
+}
